@@ -11,7 +11,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # OpenAI istemcisi
-client = OpenAI(api_key="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")  # kendi key'ini buraya yaz
+client = OpenAI(api_key="")  # kendi key'ini buraya yaz
 
 # Selenium başlat
 driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))
